@@ -75,6 +75,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: wave 7s linear forwards;
+
 }
 .mic img{
     height: 200px;
@@ -178,7 +180,7 @@ body{
 }
 /* Grid Section */
 .grid-container{
-    padding: 120px;
+    margin: 120px 120px 50px 120px;
     color: #fff;
 }
 .why{
@@ -256,7 +258,11 @@ body{
     color: rgb(0, 255, 136);
     opacity: 1;
 }
-
+.featured{
+    color:#fff;
+    font-size: 32px;
+    font-weight: 700;
+}
 /* Host Section */
 .host{
     color: #fff;
@@ -396,4 +402,26 @@ footer p{
         gap: 5px;
     }
 
+}
+@keyframes wave {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+        scale: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+        scale: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+        scale: 0.75;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+    
 }
