@@ -16,12 +16,12 @@ body{
     align-items: center;
     padding: 30px 0;
 }
-.navbar .logo{
+ .logo{
     color: white;
     font-size: 3rem;
     font-weight: 800;
 }
-.navbar .logo span{
+ .logo span{
     color: rgb(190, 0, 248)
 }
 
@@ -172,3 +172,161 @@ body{
     color: #fff;
     font-weight: 400;
 }
+/* Grid Section */
+.grid-container{
+    padding: 120px;
+    color: #fff;
+}
+.why{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.bx-container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    gap: 30px;
+}
+.g-box{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.bx-1{
+    grid-row: span 2;
+
+}
+.bx-2{
+    grid-column: span 2;
+}
+.bx-3{
+    grid-column: span 2;
+}
+.bx-4{
+    grid-column: span 2;
+}
+/* Featured Episodes */
+.f-episode{
+    padding: 120px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap:40px;
+}
+.f-video{
+    border-radius: 24px 24px 0px 0px;
+}
+.f-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.f-card{
+    border-radius: 24px;
+    background: rgba(53, 17, 101, 0.4);
+}
+.f-desc{
+    margin: 24px;
+}
+
+.f-desc p{
+    margin: 12px 0;
+    color:#fff;
+    opacity: 0.8;
+}
+.f-desc h1{
+    color: #fff;
+}
+.f-desc .time{
+    color: rgb(0, 255, 136);
+    opacity: 1;
+}
+
+/* Host Section */
+.host{
+    color: #fff;
+}
+.host-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.host-banner{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 0 200px 120px 200px;
+    padding: 40px;
+
+}
+.info-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.info-icons .name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.host-info .info{
+    font-size: 1rem;
+    font-weight:400;
+    line-height: 1.5rem;
+    opacity: 0.6;
+}
+.icon-bx{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.s-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(190, 0, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background: url("../assets/footer-bg.png") center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40pgx;
+}
+footer p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.foot-icon-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.foot-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+

@@ -1,0 +1,21 @@
+/* .bx-1{
+    height: 480px;
+    width: 380px;
+    background: rgba(53, 17, 101, 0.4);;
+    border-radius: 40px;
+    padding: 40px;
+}
+.bx-2{
+    height: 225px;
+    width: 790px;
+    background: rgba(53, 17, 101, 0.4);;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.bx-3{
+    height: 225px;
+    width: 790px;
+    background: rgba(53, 17, 101, 0.4);;
+    border-radius: 40px;
+    padding: 40px;} */
