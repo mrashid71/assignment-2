@@ -53,6 +53,10 @@ body{
     height: 20px;
     width: 1.4rem;
 }
+
+.hamburger{
+    display: none;
+}
 /* Banner Section */
 .hero-bg{
     width: 100%;
@@ -311,7 +315,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 40pgx;
+    gap: 40px;
 }
 footer p{
     color: #fff;
@@ -330,3 +334,66 @@ footer p{
     gap: 5px;
 }
 
+/* Mobile View */
+
+@media (max-width:576px) {
+    .navbar .about{
+        display: none;
+    }
+    .navbar .subs{
+        display: none;
+    }
+    .hamburger{
+        display: inline;
+    }
+
+    .hero-content p{
+        text-align: center;
+    }
+
+    .pod-data{
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        align-content: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .grid-container{
+        padding: 120px 30px;
+    }
+    .why{
+        font-size: 2rem;
+    }
+    .bx-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-card-container{
+        flex-direction: column;
+    }
+
+    .host-banner{
+        flex-direction: column;
+        margin: 50px;
+        text-align: center;
+    }
+    .info-icons{
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        background: url("../assets/footer-bg.png") center;
+    }
+    footer .logo{
+        font-size: 2rem;
+    }
+    .foot-icon-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+    }
+
+}
